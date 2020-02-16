@@ -1,0 +1,45 @@
+TITLE: Keegan Bean Section D, Aidan Funk Section B, and the project title is “Caesar and Vigenere Ciphers”
+
+PROBLEM DESCRIPTION: This project will either encrypt or decrypt into “Caesar” or “Vigenere” ciphers. The user will input a string to an input file and it will convert to or from either of these ciphers depending on the users choice. Using this program the user will be able to convert any message with these ciphers back to english or encrypt their own messages.
+
+PROGRAM DOCUMENTATION: For the program it will come with an input file which you can put the message that you want to encrypt or decrypt into and then it will return an output file to the computer with the encrypted or decrypted message. The program will prompt the user to either encrypt or decrypt and then it will ask if they want to use the Caesar cipher(C) (If Caesar is chosen it will prompt you for the key) or Vigenere cipher(V). Once you have entered the information into the input file, chosen decrypt or encrypt, and chosen the cypher you want to use it will return the information to a new output file on your computer. By copying the encrypted message and placing it back in the input file it will return it to the original if you decrypt it using the same cipher. If we had more time, we would have added in an option to encrypt and decrypt the program using different ciphers. We also would have added an SFML interface to make to program easier to use by clicking buttons.
+
+TESTS:
+Caesar Encrypt
+"My name is Keegan Bean. I like it when people call me Stretch."
+Will encrypt to the message below with a key of five.
+"Rd sfrj nx Pjjlfs Gjfs. N qnpj ny bmjs ujtuqj hfqq rj Xywjyhm."
+
+"my name is Aidan and I think coding is very cool"
+Will encrypt to the message below with a key of three.
+"pb qdph lv Dlgdq dqg L wklqn frglqj lv yhub frro "
+
+Caesar Decrypt
+"Rd sfrj nx Pjjlfs Gjfs. N qnpj ny bmjs ujtuqj hfqq rj Xywjyhm."
+Will decrypt to the message below with a key of five.
+"My name is Keegan Bean. I like it when people call me Stretch."
+
+"Wzr Vlawb Rqh lv pb idyrulwh fodvv dw vfkrro"
+Will decrypt to the message below with a key of three.
+"Two Sixty One is my favorite class at school"
+
+Vigenere encrypt
+"Wesley is our friend even though he is mean to us and bullies Beegan."
+Should encrypt to the message below with Vigenere
+"Vsjvdm zc nii pqwvxc smom hyytuy rd wj wdoe dn ij kmr sekzzor Pvofoe."
+
+"Finals are the best time of the year everyone likes their life so much right now."
+Should encrypt to the message below with Vigenere
+"Ewekkg rbd hyo asjd swdo nt krd mvkq smoqmfxd zzudg krdwi vhtv cn almg fzqgh eyv. "
+
+Vigenere Decrypt
+"soty ascv hg r phjv csoi vtllbx fvcsolbzbk kmr krzhj k eotd"
+Should decrypt to the message below with Vigenere
+"taco bell is a five star luxury restaurant and thats a fact"
+
+"Ht no cc eys uvd z ceo gienqsu ym hysr diyistd svrdr pfqtg"
+Should decrypt to the message below with Vigenere
+"If we do not get a one hundred on this project thats bogus"
+
+
+REFLECTIONS: During this project we encountered some new learning goals and also furthered our knowledge of what we had already learned this semester. An easier part for us was using the arrays because we used them for the alphabet making it much easier to access the letters or “values” that we needed to encrypt or decrypt at certain points in the alphabet to make words. Also we did well with using input and output files since we had to use those for several different assignments throughout the semester. The big thing we struggled with was implementing the classes and we overcame this by originally just writing the code as functions and then determining how it could be put into a class and used the way we wanted it to be used. If we were to do a similar project we would start by making our goal smaller and having one big idea to implement instead of trying to do the same thing for two different topics, although this did help us further understand everything that we were working through. Overall this project taught us how to implement classes the way we want to, how to use functions properly and make them callable for the same output file, using arrays to support the rest of our program, and being able to use “Incremental Build” so that our program ran well and compiled correctly.
